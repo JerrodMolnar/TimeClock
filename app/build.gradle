@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.example.timeclock"
         minSdkVersion 30
-        targetSdkVersion 30
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
 
@@ -29,6 +29,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'com.example.timeclock'
 }
 
 dependencies {
