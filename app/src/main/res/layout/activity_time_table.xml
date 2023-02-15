@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#858282"
+    android:autofillHints="false"
+    tools:context="com.example.timeclock.TimeTableActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        style="@android:style/Widget.Holo.Light.ScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3d455b"
+        android:fadeScrollbars="true"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollIndicators="bottom|right"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarSize="10dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="horizontal|vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:id="@+id/punchTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFF">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:background="#4C4C4C">
+
+                <TextView
+                    android:id="@+id/txtDayIn"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="Day Of Week In"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtDateIn"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:autoSizeTextType="none"
+                    android:text="Date In"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtTimeIn"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Time In"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtDayOut"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="Day Of Week Out"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtDateOut"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Date Out"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtTimeOut"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Time Out"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtDuration"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="Duration"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtEditButtons"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="Edit Buttons"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:id="@+id/txtRemoveButtons"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="Remove Buttons"
+                    android:textAlignment="center"
+                    android:textColor="#A0AEF8" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TimeClock</string>
+    <string name="title_activity_time_table">TimeTable</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="mon_05_10_2021_06_20_52_pm_mon_05_10_2021_06_20_52_pm">Mon 05/10/2021 06:20:52 PM - Mon 05/10/2021 06:20:52 PM</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="work_logger">Work Logger</string>
+    <string name="punch_out">Punch Out</string>
+    <string name="textview">TextView</string>
+    <string name="_00_00_00_start">00:00:00 Start</string>
+    <string name="punch_in">Punch In</string>
+</resources>
